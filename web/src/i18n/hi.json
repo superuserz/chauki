@@ -1,0 +1,41 @@
+{
+  "app": {
+    "name": "चौकी",
+    "tagline": "रोज़ का शब्द, जब तक चाहो खेलो।"
+  },
+  "picker": {
+    "languageLabel": "भाषा चुनें",
+    "modeLabel": "मोड",
+    "daily": "रोज़ाना",
+    "practice": "अभ्यास",
+    "start": "शुरू करें",
+    "dailyDoneBadge": "आज पूरा"
+  },
+  "game": {
+    "loading": "लोड हो रहा है…",
+    "attemptsRemaining": "{{n}} मौके बाकी",
+    "invalidWord": "शब्दकोष में नहीं है",
+    "networkError": "नेटवर्क समस्या",
+    "submit": "डालें",
+    "delete": "हटाएं"
+  },
+  "result": {
+    "won": "हो गया!",
+    "lost": "शब्द था {{word}}",
+    "share": "साझा करें",
+    "playPractice": "अभ्यास खेलें",
+    "playAnother": "एक और",
+    "back": "मेनू",
+    "nextDailyIn": "अगला रोज़ाना {{hms}} में"
+  },
+  "stats": {
+    "title": "आंकड़े",
+    "currentStreak": "वर्तमान धारा",
+    "maxStreak": "सर्वश्रेष्ठ धारा",
+    "dailyWins": "रोज़ाना जीते",
+    "dailyPlayed": "रोज़ाना खेले",
+    "practiceWins": "अभ्यास जीते",
+    "practicePlayed": "अभ्यास खेले",
+    "distribution": "अनुमान वितरण"
+  }
+}

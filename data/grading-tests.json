@@ -1,0 +1,38 @@
+[
+  {
+    "name": "exact match — all CORRECT",
+    "answer": ["a", "p", "p", "l", "e"],
+    "guess":  ["a", "p", "p", "l", "e"],
+    "expected": ["CORRECT", "CORRECT", "CORRECT", "CORRECT", "CORRECT"]
+  },
+  {
+    "name": "no overlap — all ABSENT",
+    "answer": ["c", "r", "a", "n", "e"],
+    "guess":  ["b", "i", "f", "t", "y"],
+    "expected": ["ABSENT", "ABSENT", "ABSENT", "ABSENT", "ABSENT"]
+  },
+  {
+    "name": "duplicate letter in guess, single in answer — second occurrence ABSENT",
+    "answer": ["a", "p", "p", "l", "e"],
+    "guess":  ["a", "l", "p", "h", "a"],
+    "expected": ["CORRECT", "PRESENT", "CORRECT", "ABSENT", "ABSENT"]
+  },
+  {
+    "name": "two same letters in guess, both present — both PRESENT",
+    "answer": ["s", "p", "e", "e", "d"],
+    "guess":  ["e", "r", "a", "s", "e"],
+    "expected": ["PRESENT", "ABSENT", "ABSENT", "PRESENT", "PRESENT"]
+  },
+  {
+    "name": "CORRECT consumes a copy first; duplicate in wrong slot stays ABSENT",
+    "answer": ["a", "b", "b", "e", "y"],
+    "guess":  ["b", "a", "b", "y", "z"],
+    "expected": ["PRESENT", "PRESENT", "CORRECT", "PRESENT", "ABSENT"]
+  },
+  {
+    "name": "Hindi akshara — letters compared as whole units (त ≠ ता)",
+    "answer": ["क", "म", "ल", "ता", "र"],
+    "guess":  ["क", "र", "ल", "य", "त"],
+    "expected": ["CORRECT", "PRESENT", "CORRECT", "ABSENT", "ABSENT"]
+  }
+]

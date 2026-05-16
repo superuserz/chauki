@@ -1,0 +1,41 @@
+{
+  "app": {
+    "name": "Chauki",
+    "tagline": "A word a day, play as much as you want."
+  },
+  "picker": {
+    "languageLabel": "Choose a language",
+    "modeLabel": "Mode",
+    "daily": "Daily",
+    "practice": "Practice",
+    "start": "Start",
+    "dailyDoneBadge": "Done today"
+  },
+  "game": {
+    "loading": "Loading…",
+    "attemptsRemaining": "{{n}} attempts left",
+    "invalidWord": "Not in word list",
+    "networkError": "Network error",
+    "submit": "Enter",
+    "delete": "Delete"
+  },
+  "result": {
+    "won": "Solved!",
+    "lost": "The word was {{word}}",
+    "share": "Share",
+    "playPractice": "Play Practice",
+    "playAnother": "Play another",
+    "back": "Back to menu",
+    "nextDailyIn": "Next Daily in {{hms}}"
+  },
+  "stats": {
+    "title": "Stats",
+    "currentStreak": "Current streak",
+    "maxStreak": "Best streak",
+    "dailyWins": "Daily wins",
+    "dailyPlayed": "Daily played",
+    "practiceWins": "Practice wins",
+    "practicePlayed": "Practice played",
+    "distribution": "Guess distribution"
+  }
+}
