@@ -1,10 +1,4 @@
 {
-  "rewrites": [
-    {
-      "source": "/api/:path*",
-      "destination": "https://chauki-api.onrender.com/api/:path*"
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",

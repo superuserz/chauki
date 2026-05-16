@@ -1,9 +1,0 @@
-target/
-.mvn/
-!.mvn/wrapper/maven-wrapper.jar
-*.iml
-.idea/
-.vscode/
-.DS_Store
-HELP.md
-application-local-secrets.yml
