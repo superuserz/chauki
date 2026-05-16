@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: chauki-api
+    runtime: java
+    rootDir: api
+    buildCommand: mvn clean package -DskipTests
+    startCommand: java -Xmx400m -jar target/chauki-api-1.0.0-SNAPSHOT.jar
+    healthCheckPath: /api/health
+    autoDeploy: true
+    plan: free
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: MONGODB_URI
+        sync: false
+      - key: REDIS_URL
+        sync: false
+      - key: CHAUKI_SEED
+        sync: false
+      - key: CHAUKI_DAILY_SALT
+        sync: false
+      - key: CHAUKI_CORS_ORIGINS
+        sync: false
