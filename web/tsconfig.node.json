@@ -5,7 +5,8 @@
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "types": ["node", "vitest/globals"]
   },
   "include": ["vite.config.ts"]
 }
