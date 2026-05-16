@@ -1,7 +1,14 @@
+/// <reference types="vitest/config" />
+
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
-import path from 'node:path';
+
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 export default defineConfig({
   plugins: [
@@ -38,18 +45,23 @@ export default defineConfig({
             handler: 'NetworkFirst',
             options: {
               cacheName: 'chauki-daily-puzzle',
-              expiration: { maxEntries: 4, maxAgeSeconds: 60 * 60 * 24 },
+              expiration: {
+                maxEntries: 4,
+                maxAgeSeconds: 60 * 60 * 24,
+              },
             },
           },
         ],
       },
     }),
   ],
+
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      '@': resolve(__dirname, './src'),
     },
   },
+
   server: {
     port: 5173,
     proxy: {
@@ -59,6 +71,7 @@ export default defineConfig({
       },
     },
   },
+
   test: {
     environment: 'jsdom',
     globals: true,

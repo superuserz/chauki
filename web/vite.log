@@ -1,0 +1,22 @@
+
+> chauki-web@1.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m522[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m11:38:02 pm[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[2m11:38:02 pm[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[31mfailed to load config from D:\pixelbyte\codebase\chauki\web\vite.config.ts[39m
+[2m11:38:02 pm[22m [31m[1m[vite][22m[39m path is not defined
+[2m11:38:02 pm[22m [31m[1m[vite][22m[39m server restart failed
+[2m11:38:09 pm[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[31mfailed to load config from D:\pixelbyte\codebase\chauki\web\vite.config.ts[39m
+[2m11:38:09 pm[22m [31m[1m[vite][22m[39m path is not defined
+[2m11:38:09 pm[22m [31m[1m[vite][22m[39m server restart failed
+[2m11:38:27 pm[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+Re-optimizing dependencies because lockfile has changed
+[2m11:38:27 pm[22m [36m[1m[vite][22m[39m server restarted.
+[2m11:38:45 pm[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
